@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+.roadmap {
+  font-family: "Viga", sans-serif;
+  margin-top: 2rem;
+}
+.roadmap .title {
+  font-weight: 900;
+  font-size: 4rem;
+}
+.roadmap .row .col-12 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.roadmap .row .col-12 .card {
+  height: auto;
+  width: 100%;
+  margin: 2rem;
+}
+.roadmap .row .col-12 .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem;
+}
+.roadmap .row .col-12 .card .card-body .progress {
+  border: 1px solid black;
+}
+.roadmap .row .col-12 .line hr {
+  height: 10px;
+  background-color: black;
+  width: 20rem;
+}
+
+@media (min-width: 768px) {
+  .roadmap .row .col-12 .line hr {
+    height: 10px;
+    background-color: black;
+    width: 40rem;
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .roadmap .row .col-12 {
+    background-color: rgb(255, 255, 255);
+  }
+  .roadmap .row .col-12 .card {
+    height: auto;
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .roadmap .row .col-12 .line hr {
+    height: 10px;
+    background-color: black;
+    width: 40rem;
+    display: none;
+  }
+}
+@media (max-width: 767.8px) {
+  .roadmap .row .col-12 .card {
+    height: auto;
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .roadmap .row .col-12 .line hr {
+    height: 10px;
+    background-color: black;
+    width: 40rem;
+    display: none;
+  }
+}/*# sourceMappingURL=roadmap.css.map */
