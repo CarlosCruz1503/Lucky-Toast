@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+.faq {
+  font-family: "Viga", sans-serif;
+}
+.faq .title {
+  font-weight: 900;
+  font-size: 5rem;
+  padding: 0rem;
+}
+.faq .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0rem;
+}
+.faq .row .col-12 .accordion .accordion-item {
+  padding: 0.5rem;
+}
+.faq .row .col-12 .accordion .accordion-item .accordion-button {
+  position: relative;
+  font-family: "Viga", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 2rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
+}
+.faq .row .col-12 .accordion .accordion-item .accordion-body {
+  font-family: "Viga", sans-serif;
+}
+.faq .row .col-12 .accordion .accordion-item .accordion-button:focus {
+  background-color: black;
+  color: white;
+}
+.faq .row .col-12 .accordion .accordion-item .accordion-button:focus .accordion-body {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=faq.css.map */
